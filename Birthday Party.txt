@@ -1,0 +1,15 @@
+git branch
+git branch -D moma
+git branch -D whitney
+git branch unordered_list
+git checkout unordered_list
+git add index.html
+git commit -m "change description to unordered list"
+git checkout master
+git merge unordered_list
+git branch big-heading
+git checkout big-heading
+git add index.html
+git commit -m "make heading bigger"
+git checkout master
+git merge big-heading
